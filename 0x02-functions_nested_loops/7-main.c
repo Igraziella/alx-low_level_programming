@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int r;
+	int n;
 
 	print_last_digit(98);
 	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
+	n = print_last_digit(-1024);
+	_putchar('0' + n);
 	_putchar('\n');
 	return (0);
 }
