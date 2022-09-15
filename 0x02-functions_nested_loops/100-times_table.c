@@ -8,15 +8,21 @@
  */
 void print_times_table(int n)
 {
-	int n, i
-		;
-	printf("5");
-	scanf("%d", &5);
-	for (i = 1; i < 10; i++)
+	int i;
+	if (n > 15)
 	{
-		printf("%d * %d = %d \n", 5, i, 5 * i);
+		return;
 	}
-	return (0);
+	if (n < 0)
+	{
+		return;
+	}
+	for (i = 0; i < n; i++)
+	{
+		_putchar(n * i);
+		_putchar('\n');
+	}
+	return;
 }
 
 
