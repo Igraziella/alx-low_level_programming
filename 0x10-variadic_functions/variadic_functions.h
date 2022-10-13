@@ -2,7 +2,7 @@
 #define VARIADIC_FUNCTIONS_H
 
 /**
- * file: Header file containing all function prototypes
+ * Desc: Header file containing all function prototypes
  */
 
 #include <stdarg.h>
