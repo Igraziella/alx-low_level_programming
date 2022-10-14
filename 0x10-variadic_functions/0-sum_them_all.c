@@ -3,10 +3,9 @@
 
 /**
  * sum_them_all - Returns the sum of all its parametres.
- * @n: Number of parametres.
+ * @n: Number of parametres passed to the function.
  *
- * Return: 0, if n == 0
- * otherwise, return the sum of all parametres.
+ * Return: 0, If n == 0.
  */
 int sum_them_all(const unsigned int n, ...)
 {
