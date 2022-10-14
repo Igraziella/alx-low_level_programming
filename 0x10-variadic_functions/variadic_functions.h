@@ -2,6 +2,9 @@
 #define VARIADIC_FUNCTIONS_H
 
 /**
+ * file - variadic_functions - lists variadic functions
+ * @n: number of arguments to be passed.
+ *
  * Desc: Header file containing all function prototypes
  */
 
