@@ -9,7 +9,8 @@
  *	On failure -1
  *	If filename is NULL -1
  */
-int create_file(const char *filename, char *test_content)
+
+int create_file(const char *filename, char *text_content)
 {
 	int o, w, len = 0;
 	
